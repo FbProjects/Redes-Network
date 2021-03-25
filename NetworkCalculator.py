@@ -10,10 +10,10 @@ while True:
         print("\t----------------------------------------\n")
     print1()
     # -----------------------------------------------
-    vRede1 = input("1ยบ Network octet: ")
+    vRede1 = input("1º Network octet: ")
     if int(vRede1) >= 256:
         print("Type a valid number! (Between 0 e 255)")
-        vRede1 = input("\n1ยบ Network octet: ")
+        vRede1 = input("\n1º Network octet: ")
         if int(vRede1) <= 255:
             pass
         else:
